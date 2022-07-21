@@ -1,4 +1,4 @@
-import commonRequest from "../../request";
+import commonRequest from "../../service";
 
 interface IReq {
     userName: string,

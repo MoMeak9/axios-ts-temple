@@ -25,4 +25,8 @@ export interface CommonResponse<T> {
     data: T
 }
 
+// type.ts
+export interface CancelRequestSource {
+    [index: string]: () => void
+}
 
